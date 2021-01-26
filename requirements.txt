@@ -1,0 +1,25 @@
+# run with cmd/terminal pip install -r requirements.txt
+
+flask
+flask_cors
+nltk~=3.5
+numpy~=1.18.5
+tensorflow
+keras~=2.4.3
+spacy
+pandas~=1.1.4
+pipwin
+pyttsx3~=2.90
+SpeechRecognition
+selenium
+pymongo~=3.11.1
+pyaudio
+scikit-learn~=0.24.0
+sklearn~=0.0
+#nltk.
+#threading
+
+# pipwin install pyaudio
+# npm install jquery.idle
+# pip install -Iv pyttsx3==2.6 -U
+# pip install scikit-learn==0.24.0

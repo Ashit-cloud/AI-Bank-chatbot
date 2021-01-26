@@ -1,0 +1,714 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+    <title>Voice Bankbot</title>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1" >
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 40px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 8px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("static/Background_Image.png");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  background-color: #30f;
+  color: white;
+  padding: 16px 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  height:80px;
+  width: 80px;
+}
+.circle {
+  height: 50px;
+  width: 50px;
+  background-color: #555;
+  border-radius: 50%;
+}
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 610px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .closebtn {
+    float:right;
+    margin-top:-40px;
+    margin-right:-40px;
+    cursor:pointer;
+    color: #fff;
+    border: 1px solid #AEAEAE;
+    border-radius: 30px;
+    background: #605F61;
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 0px;
+    padding: 11px 3px;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+@import url("https://fonts.googleapis.com/css?family=Red+Hat+Display:400,500,900&display=swap");
+body, html {
+  font-family: Red hat Display, sans-serif;
+  font-weight: 400;
+  line-height: 1.25em;
+  letter-spacing: 0.025em;
+  color: #333;
+  background: #F7F7F7;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: calc(50% + 12rem);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.pic {
+  width: 4rem;
+  height: 4rem;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+}
+
+.contact {
+  position: relative;
+  margin-bottom: 1rem;
+  padding-left: 5rem;
+  height: 4.5rem;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+.contact .pic {
+  position: absolute;
+  left: 0;
+}
+.contact .name {
+  font-weight: 500;
+  margin-bottom: 0.125rem;
+}
+.contact .message, .contact .seen {
+  font-size: 0.9rem;
+  color: #999;
+}
+.contact .badge {
+  box-sizing: border-box;
+  position: absolute;
+  width: 1.5rem;
+  height: 1.5rem;
+  text-align: center;
+  font-size: 0.9rem;
+  padding-top: 0.125rem;
+  border-radius: 1rem;
+  top: 0;
+  left: 2.5rem;
+  background: #333;
+  color: white;
+}
+
+.contacts {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translate(-6rem, -50%);
+          transform: translate(-6rem, -50%);
+  width: 24rem;
+  height: 32rem;
+  padding: 1rem 2rem 1rem 1rem;
+  box-sizing: border-box;
+  border-radius: 1rem 0 0 1rem;
+  cursor: pointer;
+  background: white;
+  box-shadow: 0 0 8rem 0 rgba(0, 0, 0, 0.1), 2rem 2rem 4rem -3rem rgba(0, 0, 0, 0.5);
+  -webkit-transition: -webkit-transform 500ms;
+  transition: -webkit-transform 500ms;
+  transition: transform 500ms;
+  transition: transform 500ms, -webkit-transform 500ms;
+}
+.contacts h2 {
+  margin: 0.5rem 0 1.5rem 5rem;
+}
+.contacts .fa-bars {
+  position: absolute;
+  left: 2.25rem;
+  color: #999;
+  -webkit-transition: color 200ms;
+  transition: color 200ms;
+}
+.contacts .fa-bars:hover {
+  color: #666;
+}
+.contacts .contact:last-child {
+  margin: 0;
+}
+.contacts:hover {
+  -webkit-transform: translate(-23rem, -50%);
+          transform: translate(-23rem, -50%);
+}
+
+.chat {
+  position: relative;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  width: 24rem;
+  height: 38rem;
+  z-index: 2;
+  box-sizing: border-box;
+  border-radius: 1rem;
+  background: white;
+  box-shadow: 0 0 8rem 0 rgba(0, 0, 0, 0.1), 0rem 2rem 4rem -3rem rgba(0, 0, 0, 0.5);
+}
+.chat .contact.bar {
+  flex-basis: 3.5rem;
+  flex-shrink: 0;
+  margin: 1rem;
+  box-sizing: border-box;
+}
+.chat .messages {
+  padding: 1rem;
+  background: #F7F7F7;
+  flex-shrink: 2;
+  overflow-y: auto;
+  box-shadow: inset 0 2rem 2rem -2rem rgba(0, 0, 0, 0.05), inset 0 -2rem 2rem -2rem rgba(0, 0, 0, 0.05);
+}
+.chat .messages .time {
+  font-size: 0.8rem;
+  background: #EEE;
+  padding: 0.25rem 1rem;
+  border-radius: 2rem;
+  color: #999;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+}
+.chat .messages .Bot {
+  box-sizing: border-box;
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+  background: #FFF;
+  border-radius: 1.125rem 1.125rem 1.125rem 0;
+  min-height: 2.25rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  max-width: 66%;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.075), 0rem 1rem 1rem -1rem rgba(0, 0, 0, 0.1);
+}
+.chat .messages .You {
+  padding: 0.5rem 1rem;
+  margin: 1rem 1rem 1rem auto;
+  border-radius: 1.125rem 1.125rem 0 1.125rem;
+  min-height: 2.25rem;
+  background: #333;
+  color: white;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  max-width: 66%;
+}
+.chat .messages .Bot .typing {
+  display: inline-block;
+  width: 0.8rem;
+  height: 0.8rem;
+  margin-right: 0rem;
+  box-sizing: border-box;
+  background: #ccc;
+  border-radius: 50%;
+}
+.chat .messages .Bot .typing.typing-1 {
+  -webkit-animation: typing 3s infinite;
+          animation: typing 3s infinite;
+}
+.chat .messages .Bot .typing.typing-2 {
+  -webkit-animation: typing 3s 250ms infinite;
+          animation: typing 3s 250ms infinite;
+}
+.chat .messages .Bot .typing.typing-3 {
+  -webkit-animation: typing 3s 500ms infinite;
+          animation: typing 3s 500ms infinite;
+}
+.chat .input {
+  box-sizing: border-box;
+  flex-basis: 4rem;
+  flex-shrink: 0;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  padding: 0 0.5rem 0 1.5rem;
+}
+.chat .input i {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  color: #666;
+  cursor: pointer;
+  -webkit-transition: color 200ms;
+  transition: color 200ms;
+}
+.chat .input i:hover {
+  color: #333;
+}
+.chat .input input {
+  border: none;
+  background-image: none;
+  background-color: white;
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
+  border-radius: 1.125rem;
+  -webkit-box-flex: 2;
+          flex-grow: 2;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1), 0rem 1rem 1rem -1rem rgba(0, 0, 0, 0.2);
+  font-family: Red hat Display, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+}
+.chat .input input:placeholder {
+  color: #999;
+}
+
+@-webkit-keyframes typing {
+  0%, 75%, 100% {
+    -webkit-transform: translate(0, 0.25rem) scale(0.9);
+            transform: translate(0, 0.25rem) scale(0.9);
+    opacity: 0.5;
+  }
+  25% {
+    -webkit-transform: translate(0, -0.25rem) scale(1);
+            transform: translate(0, -0.25rem) scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes typing {
+  0%, 75%, 100% {
+    -webkit-transform: translate(0, 0.25rem) scale(0.9);
+            transform: translate(0, 0.25rem) scale(0.9);
+    opacity: 0.5;
+  }
+  25% {
+    -webkit-transform: translate(0, -0.25rem) scale(1);
+            transform: translate(0, -0.25rem) scale(1);
+    opacity: 1;
+  }
+}
+.pic.bot {
+  background-image: url("/static/images.png");
+}
+
+.pic.banner {
+  background-image: url("https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/4/4f/BruceHulk-Endgame-TravelingCapInPast.jpg");
+}
+
+.pic.thor {
+  background-image: url("https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/9/98/ThorFliesThroughTheAnus.jpg");
+}
+
+.pic.danvers {
+  background-image: url("https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/0/05/HeyPeterParker.png");
+}
+
+.pic.rogers {
+  background-image: url("https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/7/7c/Cap.America_%28We_Don%27t_Trade_Lives_Vision%29.png");
+}
+</style>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.0/jquery.min.js"></script>-->
+
+<script type="text/javascript">
+!function(n){"use strict";n.fn.idle=function(e){var t,i,o={idle:6e4,events:"mousemove keydown mousedown touchstart",onIdle:function(){},onActive:function(){},onHide:function(){},onShow:function(){},keepTracking:!0,startAtIdle:!1,recurIdleCall:!1},c=e.startAtIdle||!1,d=!e.startAtIdle||!0,l=n.extend({},o,e),u=null;return n(this).on("idle:stop",{},function(){n(this).off(l.events),l.keepTracking=!1,t(u,l)}),t=function(n,e){return c&&(c=!1,e.onActive.call()),clearTimeout(n),e.keepTracking?i(e):void 0},i=function(n){var e,t=n.recurIdleCall?setInterval:setTimeout;return e=t(function(){c=!0,n.onIdle.call()},n.idle)},this.each(function(){u=i(l),n(this).on(l.events,function(){u=t(u,l)}),(l.onShow||l.onHide)&&n(document).on("visibilitychange webkitvisibilitychange mozvisibilitychange msvisibilitychange",function(){document.hidden||document.webkitHidden||document.mozHidden||document.msHidden?d&&(d=!1,l.onHide.call()):d||(d=!0,l.onShow.call())})})}}(jQuery);
+
+function speakBot(msg) {
+    let speech = new SpeechSynthesisUtterance();
+<!--    let voice = window.speechSynthesis.getVoices();-->
+    speech.lang = "en-US";
+<!--    speech.voice = voice[1];-->
+    speech.text = msg;
+    speech.volume = 1;
+    speech.rate = 1.5;
+    speech.pitch = 1.1;
+    speech.gender= 0;
+    speechSynthesis.speak(speech);
+    };
+
+
+        function speakMike() {
+            var Ks = '{{killSession}}'
+            let userId = '{{userID}}';
+            let msg = '{{botResp}}';
+	   	  if (Ks=="no") {
+	   	    if (msg == "Thanks for chatting with me. I hope your query is solved. Goodbye.") {
+	   	        stopSpeech(event);
+                speakBot(msg);
+                var stop = $(document).trigger("idle:stop");
+                setTimeout(function(){ closeForm(); }, 13000);
+                    }
+            else    {
+                speakBot(msg);
+                checkMike();
+                        }
+                }
+          else   {
+            stopSpeech(event);
+            speakBot(msg);
+            var stop = $(document).trigger("idle:stop");
+            setTimeout(function(){ closeForm(); }, 13000);
+                }
+        };
+
+
+function checkMike(){
+   	  var ms = '{{mike_status}}'
+   	  if (ms=="yes")  {
+   	  	  startSpeech(event);
+   	  	  }
+   	  };
+
+
+$(document).idle({
+    onIdle: function(){
+        endSpeechInput(event);
+        scrollToBottom();
+        },
+    idle: 60000
+ })
+
+
+
+</script>
+</head>
+<body onload="speakMike(); getFocus();">
+    <div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <a href="about">About</a>
+      <a href="#">Reviews</a>
+      <a href="#">products</a>
+      <a href="charts">Charts</a>
+      <a href="contact">Contact</a>
+      <a href="video_feed">Webcam</a>
+    </div>
+
+
+<div class="hero-image">
+    <button class="openbtn" onclick="openNav()">☰ </button>
+    <div class="hero-text">
+    	<h1 style="font-size:50px">Voice Customer Service Bot</h1>
+		<h1 style="font-size:50px">For Banking & Finance</h1>
+    	<p>Curiosity Is Your Best Teacher</p>
+    <button>Hire me</button>
+  </div>
+</div>
+
+
+<input type="image" src="https://cdn2.iconfinder.com/data/icons/ios7-inspired-mac-icon-set/1024/messages_5122x.png" class="open-button" onload="openForm(); scrollToBottom();" onclick="openForm()"  />
+
+
+<div class="chat-popup" id="myForm">
+    <form class="form-container" id="chat-data" action="/process" method="POST">
+        <div class="chat">
+            <div class="contact bar">
+                <div class="pic bot"></div>
+                <div class="name">
+                    <a href="javascript:void(0)" class="closebtn" onclick="goodBye()">X</a>
+                    <h4>AssistBot &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</h4>
+                </div>
+                <div class="seen">Online</div>
+            </div>
+
+            <div class="messages" id="chat">
+              {% for item in user_input %}
+                {% for key, value in item %}
+                    <div id="chat_screen" class="{{key}}">
+                        {{value}}
+                    </div>
+                {% endfor %}
+              {% endfor %}
+            </div>
+
+            <div class="input">
+                <div class="form-group">
+                    <input type="text" name="user_input" id="input" class="form-control" placeholder="Type your query">
+                    <input type="hidden" name="mic_status" class="form-control" value="off">
+                    <input type="hidden" name="userID" class="form-control" value='{{userID}}'>
+                    <input type="hidden" name="killSession" class="form-control" value='{{killSession}}'>
+                    <button type="submit" class="Submitbtn"  onclick="scrollToBottom();">Send</button>
+                    <button type="button" class="Submitbtn" id="speak" onclick="toggleSpeech(event)">Speak</button>
+                </div>
+            </div>
+        </div>
+    </form>
+    <form action="/process" method="POST">
+        <input type="hidden" id="q" name="user_input" >
+        <input type="hidden" name="mic_status" class="form-control" value="on">
+        <input type="hidden" name="userID" class="form-control" value='{{userID}}'>
+        <input type="hidden" id="a" name="killSession" class="form-control" value='{{killSession}}'>
+    </form>
+</div>
+
+<script type="text/javascript">
+
+const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+const recognition = new SpeechRecognition();
+recognition.continuous = true;
+recognition.lang = 'en-US';
+
+
+function startSpeech(event) {
+    recognition.start();
+    final_transcript = '';
+    recognition.onresult = function(event) {
+      var interim_transcript = '';
+      for (var i = event.resultIndex; i < event.results.length; ++i) {
+        if (event.results[i].isFinal) {
+          final_transcript += event.results[i][0].transcript;
+        } else {
+          interim_transcript += event.results[i][0].transcript;
+        }
+      };
+      handleSpeechInput(event);
+    };
+  }
+
+
+
+function stopSpeech(event) {
+    recognition.stop();
+}
+
+function getFocus() {
+  document.getElementById("input").focus();
+}
+
+var a = 1;
+function toggleSpeech(event) {
+    if (a==1) {
+    startSpeech(event);
+    a++;
+    }
+    else if (a==2) {
+    a--;
+    stopSpeech(event);
+    }
+}
+
+
+function handleSpeechInput(event) {
+    var q = document.getElementById("q");
+    q.value = final_transcript;
+    q.form.submit();
+    startSpeech(event);
+}
+
+function endSpeechInput(event) {
+    var q = document.getElementById("q");
+    q.value = "TimeOut";
+    killSession="yes"
+    document.getElementById("a").setAttribute('value','yes');
+    q.form.submit();
+}
+
+
+
+var gb = 1;
+function goodBye() {
+    if (gb==1) {
+    closeMsg = "Are you sure you want to leave the conversation. If yes, than click the 'X' button again.";
+    speakBot(closeMsg);
+    gb++;
+    } else if (gb==2) {
+    stopSpeech(event);
+    finalMsg = "GoodBye";
+    speakBot(finalMsg);
+    var stop = $(document).trigger("idle:stop");
+    closeForm();
+    gb--;
+    }
+}
+
+function openNav()  {
+  document.getElementById("mySidebar").style.width = "200px";
+  document.getElementById("main").style.marginLeft = "200px";
+}
+function openChat() {
+  document.getElementById("myForm").style.width = "400px";
+  document.getElementById("main").style.marginLeft = "200px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+    document.getElementById("myForm").style.display = "none";
+    document.getElementById("main").style.marginLeft= "0";
+}
+
+function scrollToBottom() {
+    var chat = document.getElementById("chat");
+    chat.scrollTop = chat.scrollHeight - chat.clientHeight;
+}
+
+</script>
+
+</body>
+</html>
+

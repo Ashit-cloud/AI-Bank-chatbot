@@ -1,0 +1,589 @@
+{
+  "intents": [
+    {
+      "tag": "faq_1",
+      "patterns": [
+        "What is an EMI?"
+      ],
+      "responses": [
+        "Equated Monthly Instalments (EMIs) give you the ease and benefit of paying back the personal loan amount in smaller convenient instalments. The instalments consist of both the principal and interest amounts.\n"
+      ]
+    },
+    {
+      "tag": "faq_2",
+      "patterns": [
+        "Are there any foreclosure and part-prepayment charges?"
+      ],
+      "responses": [
+        "Yes, there are foreclosure and part-prepayment charges applicable. To read more on the interest rates and charges, click here.\n"
+      ]
+    },
+    {
+      "tag": "faq_3",
+      "patterns": [
+        "What is the maximum loan amount you can get when you apply for a salaried personal loan?"
+      ],
+      "responses": [
+        "\u2022 You can avail an instant personal loan amount up to Rs.25 lakh.\r\n\u2022 However, the final amount sanctioned will depend on your income, your CIBIL score and other eligibility criteria.\n"
+      ]
+    },
+    {
+      "tag": "faq_4",
+      "patterns": [
+        "What are the tenor options available?"
+      ],
+      "responses": [
+        "You can choose a tenor ranging from 12 to 60 months depending on your preference and the loan sanctioning conditions."
+      ]
+    },
+    {
+      "tag": "faq_5",
+      "patterns": [
+        "What are the benefits or advantages of taking a personal loan from Bajaj Finserv?"
+      ],
+      "responses": [
+        "Please check out the Personal Loan features and benefits section for more details.\n"
+      ]
+    },
+    {
+      "tag": "faq_6",
+      "patterns": [
+        "How do I apply for a salaried personal loan?"
+      ],
+      "responses": [
+        "You can apply online through our online application facility or contact us through various modes mentioned in the\u00a0contact us\u00a0section.\r\n"
+      ]
+    },
+    {
+      "tag": "faq_7",
+      "patterns": [
+        "When will I receive the salaried personal loan?"
+      ],
+      "responses": [
+        "For online applications, you will get an instant approval. The funds will be disbursed to your account within 24 hours of document verification."
+      ]
+    },
+    {
+      "tag": "faq_8",
+      "patterns": [
+        "How do I repay the loan?"
+      ],
+      "responses": [
+        "You can repay the loan in Equated Monthly Instalments (EMIs) using the ECS facility or through post-dated cheques."
+      ]
+    },
+    {
+      "tag": "faq_9",
+      "patterns": [
+        "What is the online approval process for a salaried personal loan?"
+      ],
+      "responses": [
+        "With our online application facility, you can apply for a salaried personal loan from wherever you are and get instant approval on your application."
+      ]
+    },
+    {
+      "tag": "faq_10",
+      "patterns": [
+        "How do I apply online for an instant personal loan?"
+      ],
+      "responses": [
+        "For details, check out the\u00a0stepwise procedure on how to apply for personal loan section.\n"
+      ]
+    },
+    {
+      "tag": "faq_11",
+      "patterns": [
+        "On what criteria will the loan be sanctioned to me?"
+      ],
+      "responses": [
+        "You can check the Personal Loan eligibility & documents section\u00a0to get more information. All loans are sanctioned based on internal policies of Bajaj Finserv.\n"
+      ]
+    },
+    {
+      "tag": "faq_12",
+      "patterns": [
+        "What are the benefits of applying for a personal loan online?"
+      ],
+      "responses": [
+        "\r\n\u2022 Through our online application facility, you can apply for a loan from anywhere and anytime, without having to travel to any branch.\r\n\u2022 You also get instant approval on your loan and the fund disbursal is done within 24 hours of completion of internal verification.\n\n"
+      ]
+    },
+    {
+      "tag": "faq_13",
+      "patterns": [
+        "How can I check the status of my loan, for which I have applied online?"
+      ],
+      "responses": [
+        "To check your loan status:\r\n\u2022 You can call our customer care on 1800-103-3535, and give your unique reference number provided to you by email and SMS.\r\n\u2022 On authentication of details like name and date of birth, you will be informed of the status of your account.\n\n"
+      ]
+    },
+    {
+      "tag": "faq_14",
+      "patterns": [
+        "How secure is the information provided by me?"
+      ],
+      "responses": [
+        "Our online application process is a completely secured application system, using state of the art security systems, so all your information is secure with us."
+      ]
+    },
+    {
+      "tag": "faq_15",
+      "patterns": [
+        "What is secure fee for online application?"
+      ],
+      "responses": [
+        "Secure fee is a charge that you must pay for the submission or processing of your application form online."
+      ]
+    },
+    {
+      "tag": "faq_16",
+      "patterns": [
+        "What if I don\u00e2\u20ac\u2122t pay the secure fees online?"
+      ],
+      "responses": [
+        "In case you choose not to pay the secure fee, you will lose the benefit of instant online approval."
+      ]
+    },
+    {
+      "tag": "faq_17",
+      "patterns": [
+        "I have already paid the secure fee through the Personal Loan online application, but I do not wish to avail the Personal Loan right now. Would I be paid back the secure fee if I do not avail the Personal Loan from Bajaj Finserv?"
+      ],
+      "responses": [
+        "\r\n\u2022 In case the loan is sanctioned, but the disbursement has not been availed by you within 30 days of sanction, we shall refund the secure fee in full to you.\r\n\u2022 If your loan is rejected, we shall refund the secure fee paid by you in full.\n"
+      ]
+    },
+    {
+      "tag": "faq_18",
+      "patterns": [
+        "How can I pay secure fee?"
+      ],
+      "responses": [
+        "There are various ways you can pay your secure fees online:\r\n1. Debit card\r\n2. Net Banking\n"
+      ]
+    },
+    {
+      "tag": "faq_19",
+      "patterns": [
+        "Is it safe to use my debit card on this site?"
+      ],
+      "responses": [
+        "All transactions on our website are safe. We use the best-in-class security and the transactions done are secure. We use SSL data encryption that protects the information from being viewed by unauthorized individuals.\n"
+      ]
+    },
+    {
+      "tag": "faq_20",
+      "patterns": [
+        "How do I cancel a transaction or get the refund?"
+      ],
+      "responses": [
+        "\r\n\u2022 In case of any discrepancies and provided the reasons are valid, we will refund the money.\r\n\u2022 Please call us at 1800-103-3535 or write to us at personalloans@bajajfinserv.in. We will be happy to assist you.\r\n\u2022 Please read the terms and conditions for more details.\r\n"
+      ]
+    },
+    {
+      "tag": "faq_21",
+      "patterns": [
+        "What are features of Flexi term Loan?"
+      ],
+      "responses": [
+        "\r\n\u2022 A Flexi Term Loan is an industry-first facility being extended by Bajaj Finserv to our premium customers.\r\n\u2022 It is a hybrid product combining the features of both, a term loan and a written down value based loan limit.\r\n\u2022 With this product you can pre-pay and drawdown money as many times you want, making the process easy and hassle-free.\r\n\u2022 Interest is charged only on the amount drawn by you and not the entire loan amount.\r\n\u2022 On availing this, you benefit by saving interest cost as you can pre-pay the loan at no extra cost.\r\n\u2022 Your drawing power reduces on monthly basis thereby reducing the approved loan amount to zero at the end of loan tenor.\n"
+      ]
+    },
+    {
+      "tag": "faq_22",
+      "patterns": [
+        "What is the benefit of a Flexi facility compared to a normal term loan?"
+      ],
+      "responses": [
+        "\r\nFlexi Loans offer many benefits compared to normal term loan:\r\n1. You have the flexibility to pre-pay the loan with idle funds.\r\n2. You can re-avail the pre-paid amount within the drop-line facility at any time within the loan tenor timeframe without any additional documentation.\r\n3. You save on interest costs \u2013 interest is payable only on the utilised loan amount. There is no interest levied on the pre-paid amount.\r\n4. Seamless, easy, hassle-free online transactions on the Bajaj Finserv's internet portal\u2013 Experia, the self-service account access tool for drawdown and RTGS, that allows you to make pre-payments to BFL through netbanking transactions."
+      ]
+    },
+    {
+      "tag": "faq_23",
+      "patterns": [
+        "What are the key constituents of dropline facility?"
+      ],
+      "responses": [
+        "Following are the constituents of dropline based amortization:\n1. Dropline balance: It is a running loan facility which keeps on dropping over the tenor.\r\n2. Utilised amount: Amount utilized by you. This is the POS (principal outstanding).\r\n3. Available balance: This is the amount you can drawdown\u00a0(calculated as the difference between dropline balance and utilised amount).\n"
+      ]
+    },
+    {
+      "tag": "faq_24",
+      "patterns": [
+        "What will be the billing cycle?"
+      ],
+      "responses": [
+        "Billing cycle will be from 26th to 25th of every month and the same will be due on 5th of the following month."
+      ]
+    },
+    {
+      "tag": "faq_25",
+      "patterns": [
+        "What would be my instalment payment date?"
+      ],
+      "responses": [
+        "The instalment payment date for all Flexi Loans will be 5th of every month.\n"
+      ]
+    },
+    {
+      "tag": "faq_26",
+      "patterns": [
+        "How will the interest be calculated if the customer withdraws or part prepay after the billing cycle?"
+      ],
+      "responses": [
+        "\r\nFor all transactions that are executed between 26th to 25th of the month, you will be charged for the specific number of days the amount has been utilized.\r\nFor e.g., if you have a loan limit of Rs.10 lakh and you draw down Rs.10 lakh on the 26th of the month & pre-pay Rs.5 lakh on the 29th of the same month thereby utilizing only Rs.5 lakh from 29th of that month to the 25th of the next month, then you will be charged interest on Rs.10 lakh from 26th \u2013 29th and on Rs.5 lakh from 30th \u2013 25th.\r\nSimilarly, if you have a loan limit of Rs.15 lakh and draw down Rs.10 lakh on the 26th of the month and on 29th, draw down another Rs.5 lakh thereby utilizing the full available balance, you will be charged for Rs.10 lakh from 26th \u2013 29th of the month and on Rs.15 lakh from 30th \u2013 25th of the next month.\r\n"
+      ]
+    },
+    {
+      "tag": "faq_27",
+      "patterns": [
+        "Would the interest rates be the same/lower compared to a normal term loan?"
+      ],
+      "responses": [
+        "Please refer to the fees and charges section for the detailed list of charges applicable on term loans and Flexi Term Loans."
+      ]
+    },
+    {
+      "tag": "faq_28",
+      "patterns": [
+        "I don\u00e2\u20ac\u2122t want to make any online withdrawal, can the transaction be carried out in any other way?"
+      ],
+      "responses": [
+        "\r\n\u2022 Through Flexi Term Loans we intend to offer a swift and easy loan facility whereby you are given the freedom to transact from the secure and comfortable environment of your home/ office.\r\n\u2022 Currently all Flexi transactions need to be carried out over internet.\r\n"
+      ]
+    },
+    {
+      "tag": "faq_29",
+      "patterns": [
+        "I don\u00e2\u20ac\u2122t want to make any online payment, I need someone to come home every time and carry out the transaction?"
+      ],
+      "responses": [
+        "While withdrawals are only allowed through the internet, payments can be made through RTGS/NEFT/IMPS either online or through your Bank."
+      ]
+    },
+    {
+      "tag": "faq_30",
+      "patterns": [
+        "Would you be offering cheque book for this facility whereby I can use the same for drawback/payment mode?"
+      ],
+      "responses": [
+        "No, this does not operate like a Current account with overdraft facility. Moreover Bajaj Finserv Ltd. being an NBFC, unlike a bank, Flexi Loans as well as our other loan products cannot offer this facility."
+      ]
+    },
+    {
+      "tag": "faq_31",
+      "patterns": [
+        "What if the customer has not received welcome kit?"
+      ],
+      "responses": [
+        "The customer can write to us at cs@bajajfinserv.in and the same would be resend to the registered address.\n"
+      ]
+    },
+    {
+      "tag": "faq_32",
+      "patterns": [
+        "When will I receive my Experia login id and password?"
+      ],
+      "responses": [
+        "\r\n\u2022 Your Experia ID and password will be sent along with the new loan relationship kit/ welcome kit.\r\n\u2022 An SMS will also be sent to you on your registered mobile number within 10 days of loan conversion.\n"
+      ]
+    },
+    {
+      "tag": "faq_33",
+      "patterns": [
+        "How can I get my statements for re-payment schedule / interest certificates / statement of accounts / no objection certificate?"
+      ],
+      "responses": [
+        "\u2022 All loan account statements are available to you online and can be viewed / downloaded by logging on to https://www.bajajfinserv.in/customer-portal using your Experia Id & password.\r\n\u2022 However, you may request for hard copy of your statements by calling our customer care call centre or through an e-mail request.\r\n\u2022 Bajaj Finserv will also send the annual statement of accounts at the end of every year by email.\n"
+      ]
+    },
+    {
+      "tag": "faq_34",
+      "patterns": [
+        "How will I get to know my complete loan details?"
+      ],
+      "responses": [
+        "\u2022 You will receive a welcome kit on your E-mail id (& the same would be on Experia also) consisting of:\r\n1. All your Flexi Loan details\r\n2. User id and password for Experia\r\n3. Your registered bank account details for drawdown transactions.\r\n4. Unique virtual account number\r\n5. Registered mobile number\r\n6. Reference service guide to help you understand the product and use the self-service tool effectively.\n"
+      ]
+    },
+    {
+      "tag": "faq_35",
+      "patterns": [
+        "How can I know my Flexi Term Loan balance?"
+      ],
+      "responses": [
+        "\r\n\u2022 You can access all the loan details and information pertaining to the Flexi Term Loan account by logging on to our customer portal, Experia, with your existing account id and password.\r\n\u2022 You can place the drawdown request over Experia.\n"
+      ]
+    },
+    {
+      "tag": "faq_36",
+      "patterns": [
+        "What is the process of part-prepayment?"
+      ],
+      "responses": [
+        "\r\n\u2022 Bajaj Finserv will be providing you with a unique account number.\r\n\u2022 You can make all payments / pre-payments into this unique account through your net banking account.\r\n\u2022 The same will be credited to the Flexi Term Loan account within the stipulated time as per banking guidelines.\n"
+      ]
+    },
+    {
+      "tag": "faq_37",
+      "patterns": [
+        "Is there any charge for pre-payment against Flexi Loan?"
+      ],
+      "responses": [
+        "There is no charge for pre-payment. As a Flexi Loan customer, you can transact (make payments in your account and drawdown within the available balance amount) any number of times."
+      ]
+    },
+    {
+      "tag": "faq_38",
+      "patterns": [
+        "When can I make the first part prepayment?"
+      ],
+      "responses": [
+        "Part prepayment can be done post 36 hours of loan disbursement."
+      ]
+    },
+    {
+      "tag": "faq_39",
+      "patterns": [
+        "How many times can I make a part pre-payment?"
+      ],
+      "responses": [
+        "A Flexi Term Loan customer can make part prepayments on his loan as many times as he wants. There is no limit to the number of part-prepayments in a day."
+      ]
+    },
+    {
+      "tag": "faq_40",
+      "patterns": [
+        "How many times can I withdraw from my Flexi Term Loan in a day?"
+      ],
+      "responses": [
+        "Currently, you can withdraw a maximum of five times a day."
+      ]
+    },
+    {
+      "tag": "faq_41",
+      "patterns": [
+        "Can I withdraw and part prepay in the same day?"
+      ],
+      "responses": [
+        "Yes, you can withdraw and part-prepay in the same day."
+      ]
+    },
+    {
+      "tag": "faq_42",
+      "patterns": [
+        "In how much time will the money be credited to my account?"
+      ],
+      "responses": [
+        "Bajaj Finserv uses RTGS/ NEFT for money transfers. The same will be credited to your account within the stipulated time as per banking guidelines."
+      ]
+    },
+    {
+      "tag": "faq_43",
+      "patterns": [
+        "I have made a prepayment before my EMI date. Do I still need to pay my instalment?"
+      ],
+      "responses": [
+        "Yes, the instalment will be deducted on the due date, irrespective of part-prepayment amount. Since the EMI is recovered on amount utilized during the billing period."
+      ]
+    },
+    {
+      "tag": "faq_44",
+      "patterns": [
+        "How long will it take for part-prepayment and withdrawal to come into effect in the statement of account?"
+      ],
+      "responses": [
+        "\r\n\u2022 Requests for payments under Flexi Term Loans will be processed in under 20 minutes\r\n\u2022 Presently, Flexi Term Loan withdrawal requests are raised on an hourly basis, and the payment process will be initiated as per the agreed turnaround time.\r\n\u2022 The withdrawal entry will reflect in the statement of accounts immediately, as soon as the payment request is authored in the system.\r\n\u2022 However, the said batch needs to be authorised at the bank site before being credited to your account.\r\n"
+      ]
+    },
+    {
+      "tag": "faq_45",
+      "patterns": [
+        "In case the customer faces any issue during withdrawal or part prepayment - whom to be contacted?"
+      ],
+      "responses": [
+        "You can contact us at:\r\n1. Our call centre no. - 020-39574151\r\n2. Reach us at https://www.bajajfinserv.in/reach-us"
+      ]
+    },
+    {
+      "tag": "faq_46",
+      "patterns": [
+        "Would there be any intimation sent to me for due instalment amount and date?"
+      ],
+      "responses": [
+        "\u2022 Yes, as a Flexi customer you will be receiving the following intimations on the registered mobile number.\r\n1. SMS on every transaction (payment and drawdown done on Experia)\r\n2. Instalment due intimation before due date\r\n3. Intimation of instalment receipt post clearance and credit\r\n4. Alternatively you can check your Loan details and instalment details by logging into your Experia account at your convenience."
+      ]
+    },
+    {
+      "tag": "faq_47",
+      "patterns": [
+        "How and when can I pre-close the Flexi Loan?"
+      ],
+      "responses": [
+        "\r\n\u2022 You can make a pre-payment or pre-closure up to any amount without incurring any additional fees.\r\n\u2022 The pre-payment can be made by you through RTGS to the assigned unique Bajaj Finserv account allocated to you.\r\n\u2022 If you wish to discontinue this loan facility you can do so by paying the entire balance amount in the loan account, including interest along with request for foreclosure.\r\n\u2022 To raise request for foreclosure- visit Experia/ WeCare/ customer care no. / branch.\r\n"
+      ]
+    },
+    {
+      "tag": "faq_48",
+      "patterns": [
+        "How do I change my personal details such as my address/mobile number/ bank account number? Do I need to send any proof?"
+      ],
+      "responses": [
+        "All your personal details can easily be changed by submitting documentary proof to the concerned relationship manager duly attested and signed by you with a request letter."
+      ]
+    },
+    {
+      "tag": "faq_49",
+      "patterns": [
+        "Are there any Foreclosure charges for Flexi Loan?"
+      ],
+      "responses": [
+        "Foreclosure charges for Pure Flexi loans will be calculated on the disbursed amount and for Flexi loans on current POS outstanding."
+      ]
+    },
+    {
+      "tag": "faq_50",
+      "patterns": [
+        "What is the minimum and maximum loan amount which can be availed under Flexi Loan Facility?"
+      ],
+      "responses": [
+        "Minimum amount of Rs.80 Thousand and a maximum of Rs.15 lacs can be availed."
+      ]
+    },
+    {
+      "tag": "faq_51",
+      "patterns": [
+        "What will be the tenure for availing Flexi Loan Facility?"
+      ],
+      "responses": [
+        "Minimum tenure is of 1-year post this you can renew your flexi loan facility."
+      ]
+    },
+    {
+      "tag": "faq_52",
+      "patterns": [
+        "What will be the tenor for availing the loan?"
+      ],
+      "responses": [
+        "The tenor will be 1-year post which customer can either renew the line for next 12 months or convert it to normal term loan."
+      ]
+    },
+    {
+      "tag": "faq_53",
+      "patterns": [
+        "Will the monthly instalment/EMI of a Flexi Term Loan contain a principal amount?"
+      ],
+      "responses": [
+        "In a Flexi Term Loan, you will pay only interest in the form of EMI. For example: A Flexi Term Loan amount of Rs.5 lakhs will have an EMI of approximately Rs.6,000 (only Interest) and not regular EMI of Rs. 12,000."
+      ]
+    },
+    {
+      "tag": "faq_54",
+      "patterns": [
+        "Whenever part-payment or drawdown is made, will the changes in EMI reflect immediately?"
+      ],
+      "responses": [
+        "If any part-payment or withdrawal is made before the 22nd of any month, the change in EMI will reflect in the very next month. If not, changes will reflect with a one-month lag."
+      ]
+    },
+    {
+      "tag": "faq_55",
+      "patterns": [
+        "What is the annual maintenance charges collection cycle date?"
+      ],
+      "responses": [
+        "Annual maintenance charges will be auto debited from your account on anniversary of your loan."
+      ]
+    },
+    {
+      "tag": "faq_56",
+      "patterns": [
+        "I am eligible for Rs.25 lakh in the first disbursement, however I have been allotted Rs.15 lakh as per the Line of Credit policy. If I want an additional loan in the next year as per my line, what would be the process?"
+      ],
+      "responses": [
+        "You will need to get in touch with our customer care and request to raise the loan amount post which your loan will be renewed and as per your credit performance new loan amount will be sanctioned."
+      ]
+    },
+    {
+      "tag": "faq_57",
+      "patterns": [
+        "How can I convert Flexi Term Loan to a Term Loan?"
+      ],
+      "responses": [
+        "\r\n\u2022 You will have to write an email to our customer service (with your consent) to convert your Flexi Term Loan to a normal loan application.\r\n\u2022 Customer service will take your consent and raise a request on your behalf.\r\n\u2022 Post this, your Flexi Term Loan will be converted into a term loan for 60 months and a regular EMI including the principal amount.\n"
+      ]
+    },
+    {
+      "tag": "faq_58",
+      "patterns": [
+        "Can a term loan be converted to a Flexi Term Loan?"
+      ],
+      "responses": [
+        "Yes, a new Flexi Term Loan will be booked with a new agreement and existing loan will be closed."
+      ]
+    },
+    {
+      "tag": "faq_59",
+      "patterns": [
+        "What is the procedure to convert flexi loan facility to Term Loan?"
+      ],
+      "responses": [
+        "You will have to initiate a mail to our customer service (with your consent) to convert loan to normal loan application. Customer service will take your consent and put a request on your behalf. Post this your flexi loan facility will be converted into a term loan for 60 months and a regular EMI will start coming in which the Principle will also be included."
+      ]
+    },
+    {
+      "tag": "faq_60",
+      "patterns": [
+        "What is the perpetual draw period of 12 months?"
+      ],
+      "responses": [
+        "You have to renew your flexi loan facility after every 12 months by paying annual maintenance charges. Annual maintenance charges will be charged at 1.0% of sanctioned loan amount."
+      ]
+    },
+    {
+      "tag": "faq_61",
+      "patterns": [
+        "How can I make a part pre-payment?"
+      ],
+      "responses": [
+        "\r\n\u2022 You can make a part pre-payment by using customer portal (Experia) upon sanction of your loan.\r\n\u2022 Experia ID and password will be shared with you in the welcome letter post disbursal of your loan.\r\n\u2022 Virtual Account Number (VAN) can be obtained by sending an SMS to 9227564444 from registered mobile number."
+      ]
+    },
+    {
+      "tag": "faq_62",
+      "patterns": [
+        "Can I make part pre-payment before the 1st EMI?"
+      ],
+      "responses": [
+        "No, you cannot make part prepayment before 1st EMI."
+      ]
+    },
+    {
+      "tag": "faq_63",
+      "patterns": [
+        "How can I drawdown my Flexi Term Loan?"
+      ],
+      "responses": [
+        "You can drawdown your Flexi Term Loan through our customer portal -Experia."
+      ]
+    },
+    {
+      "tag": "faq_64",
+      "patterns": [
+        "Under what scenarios is flexi loan facility blocked for usage?"
+      ],
+      "responses": [
+        "\r\nYour usage of a Flexi Term Loan facility can be blocked due to:\r\n\u2022 Bounce of your monthly instalment with Bajaj Finance Limited or other any other financial institution\r\n\u2022 Drop in your credit bureau score\r\n\u2022 Change in employment\r\n\u2022 Change in contact information (unless intimated in advance to Bajaj Finance Limited).\r\n"
+      ]
+    },
+    {
+      "tag": "faq_65",
+      "patterns": [
+        "Do I have to provide any security, collateral or guarantors?"
+      ],
+      "responses": [
+        "No security, collateral or guarantors are required for obtaining a salaried personal loan."
+      ]
+    }
+  ]
+}

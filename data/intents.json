@@ -1,0 +1,566 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "Hi",
+        "Hi there",
+        "Hey",
+        "Hello",
+        "Good morning",
+        "Good evening",
+        "Hello there",
+        "Hi How are you doing?",
+        "Hi How is it going?",
+        "Good day",
+        "Good afternoon",
+        "whats up"
+      ],
+      "responses": [
+        "Hi, How may i help you?",
+        "Hi there, how may I help?"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Awesome, thanks",
+        "Thanks for helping me",
+        "Thank you very much",
+        "I appreciate that",
+        "I like that",
+        "Thank you for your help"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure",
+        "You are welcome.",
+        "Welcome"
+      ]
+    },
+    {
+      "tag": "defaultfallback",
+      "patterns": [],
+      "responses": [
+        "I didnt get that. Can you say it again?",
+        "I missed what you said. What was that?",
+        "Sorry, could you say that again?",
+        "Sorry, can you say that again?",
+        "Can you say that again?",
+        "Sorry, I didnt get that. Can you rephrase?",
+        "Sorry, what was that?",
+        "One more time?",
+        "What was that?",
+        "Say that one more time?",
+        "I didnt get that. Can you repeat?",
+        "I missed that, say that again?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "bye-bye",
+        "Bye now",
+        "Goodbye",
+        "Bye bye",
+        "See you",
+        "See you again",
+        "See you later",
+        "Ok bye",
+        "Adios",
+        "Sayonara"
+      ],
+      "responses": [
+        "Thanks for chatting with me. I hope your query is solved. Goodbye."
+      ]
+    },
+    {
+      "tag": "start_again",
+      "patterns": [],
+      "responses": [
+        "Okay, How may I help you"
+      ]
+    },
+    {
+      "tag": "charges_fees",
+      "patterns": [
+        "Why there is a late charge in my bill ?",
+        "Why have you penalized",
+        "Why did you charge me a fee?",
+        "Why should I pay a late charge ?",
+        "I was not late, but you still charged late fee?",
+        "I see a processing fee on my bill",
+        "There is a late charge on my account.",
+        "There is a processing fee on my account.",
+        "I am chatting regarding the late payment.",
+        "I want to complain about the late fee charged on my account.",
+        "I am not happy with the late charge on my account."
+      ],
+      "responses": [
+        "Okay, Let me check your account. May I have your Customer Id. (Please say or type word customer id and then the id number.)"
+      ],
+      "context_set": [
+        "charges"
+      ]
+    },
+    {
+      "tag": "authagain_yes",
+      "patterns": [],
+      "responses": [
+        "May I have your Customer Id. (Please say or type word customer id and then the id number.)"
+      ],
+      "context_set": [
+        "authenticate"
+      ]
+
+    },
+    {
+      "tag": "authagain_no",
+      "patterns": [],
+      "responses": [
+        "Just before you leave I would like to inform you that our bank offers you a Accidental Policy worth 5 lacs. Would you like to know more about the offer"
+      ],
+      "context_set": [
+        "upselling"
+      ]
+    },
+    {
+      "tag": "customer_id",
+      "patterns": [
+        "customer id is",
+        "my customer id is",
+        "customer id"
+      ],
+      "responses": [
+        "In order to access your account, for authentication purpose, may i ask you few questions? (please answer in yes or no)"
+      ],
+      "context_set": [
+        "authenticate"
+        ],
+      "recheck": ["yes"]
+    },
+    {
+      "tag": "authenticate_yes",
+      "patterns": [],
+      "responses": [
+        "May I know your first name? (please type -first name is- and then your first name.)"
+      ],
+      "context_set": [
+        "auth"
+        ],
+      "recheck": ["yes"]
+    },
+    {
+      "tag": "first_name",
+      "patterns": [
+        "first name is",
+        "first name",
+        "my first name"
+      ],
+      "responses": [
+        "May I know your date of birth? (please just type  -date of birth is- and then your date of birth in the format dd-mm-yyyy.)"
+      ],
+      "context_filter": [
+        "auth"
+      ],
+      "recheck": ["yes"]
+    },
+    {
+      "tag": "dateofbirth",
+      "patterns": [
+        "date of birth is",
+        "date of birth",
+        "my date of birth is"
+      ],
+      "responses": [
+        "auth"
+      ],
+      "context_filter": [
+        "auth"
+      ],
+      "recheck": ["yes"]
+    },
+    {
+      "tag": "authenticate_no",
+      "patterns": [],
+      "responses": [
+        "Just before you leave I would like to inform you that our bank offers you a Accidental Policy worth 5 lacs. Would you like to know more about the offer"
+      ],
+      "context_set": [
+        "upselling"
+      ]
+    },
+    {
+      "tag": "top_Up_loan",
+      "patterns": [
+        "I am looking for a `top`-up loan",
+        "I need a top up loan",
+        "Am I eligible for more loan",
+        "Can I get a top up"
+      ],
+      "responses": [
+        "Sure, let me check if you are eligible for a top-up loan. May I have your Customer Id. (Please say or type word customer id and then the id number.)"
+      ],
+      "context_set": [
+        "top_up"
+      ]
+    },
+    {
+      "tag": "topup_apply_yes",
+      "patterns": [],
+      "responses": [
+        "topup_request"
+      ],
+      "context_set": [
+        "recommend"
+      ]
+    },
+    {
+      "tag": "topup_apply_no",
+      "patterns": [],
+      "responses": [
+        "recom"
+      ],
+      "context_set": [
+        "recommend"
+      ]
+    },
+    {
+      "tag": "foreclosure",
+      "patterns": [
+        "I want to close the personal loan account",
+        "I want to payoff the loan",
+        "I want to foreclose the loan",
+        "I want to end this loan",
+        "I want to foreclose the account.",
+        "I need to foreclose the loan",
+        "I need to close the account",
+        "I want to close the loan"
+      ],
+      "responses": [
+        "Sure, let me check what is the total payable amount to close the account. May I have your Customer Id. (Please say or type word customer id and then the id number.)"
+      ],
+      "context_set": [
+        "foreclose"
+      ]
+    },
+    {
+      "tag": "fore_close_yes",
+      "patterns": [],
+      "responses": [
+        "f_close"
+      ],
+      "context_set": [
+        "upselling"
+      ]
+    },
+    {
+      "tag": "fore_close_no",
+      "patterns": [],
+      "responses": [
+        "recom"
+      ],
+      "context_set": [
+        "recommend"
+      ]
+    },
+    {
+      "tag": "loan_application_status",
+      "patterns": [
+        "I want to know the status of my loan application",
+        "What is the status of my loan application?",
+        "May i know the status of my application.",
+        "Tell me the status of my loan application"
+      ],
+      "responses": [
+        "Sure, let me check. May I know your application number. (Please say or type -application number- and then the number)"
+      ],
+      "context_set": [
+        "application_status"
+      ]
+    },
+    {
+      "tag": "application_num",
+      "patterns": [
+        "my application number is",
+        "application number",
+        "application number is",
+        "application number is 1000040"
+      ],
+      "responses": [
+        "app_status"
+      ],
+      "context_set": [
+        "upselling"
+      ],
+      "recheck": ["yes"]
+    },
+    {
+      "tag": "want_personal_loan",
+      "patterns": [
+        "I need a personal loan",
+        "personal loan",
+        "need loan",
+        "I need a loan",
+        "Can i get a personal loan",
+        "Hi, I want personal loan",
+        "Am I eligible for a loan",
+        "Hi, I need a loan",
+        "I would like to apply for personal loan"
+      ],
+      "responses": [
+        "Thank you for showing interest in our Personal Loan product. Can i ask few question to check your loan eligibility."
+      ],
+      "context_set": [
+        "personal_loan"
+      ]
+    },
+    {
+      "tag": "personal_loan_yes",
+      "patterns": [],
+      "responses": [
+        "May I know your complete name? (please type or say -my name is- and then your complete name.)"
+      ],
+      "context_set": [
+        "personal_loan_apply"
+      ]
+    },
+    {
+      "tag": "personal_loan_no",
+      "patterns": [],
+      "responses": [
+        "Just before you leave I would like to inform you that our bank offers you a Accidental Policy worth 5 lacs. Would you like to know more about the offer"
+      ],
+      "context_set": [
+        "upselling"
+      ]
+    },
+    {
+      "tag": "user_name",
+      "patterns": [
+        "my name",
+        "my name is",
+        "name is",
+        "my name is john smith",
+        "my name is sushil yadav",
+        "my name is suresh",
+        "my name is kumar",
+        "i am Sam"
+      ],
+      "responses": [
+        "May I know your date of birth? (just type -date is- and then the date in the format dd-mm-yyyy)"
+      ],
+      "context_filter": [
+        "personal_loan_apply"
+      ],
+      "recheck": ["yes"]
+    },
+    {
+      "tag": "dob",
+      "patterns": [
+        "date is 01-01-2000",
+        "date is 19-05-1989",
+        "date is 25-12-1999"
+      ],
+      "responses": [
+        "May I know  your net income? (type or say -Net income- and then the digits)"
+      ],
+      "context_filter": [
+        "personal_loan_apply"
+      ],
+      "recheck": ["yes"]
+    },
+    {
+      "tag": "net_income",
+      "patterns": [
+        "Net income 35500",
+        "Net income 25000",
+        "net income is 30000",
+        "Net income 30000 per month",
+        "I earn Net income 40000 per month"
+      ],
+      "responses": [
+        "May I know your total expenses including all your monthly installments. (type or say -Total Expenses- and then the digits)"
+      ],
+      "context_filter": [
+        "personal_loan_apply"
+      ],
+      "recheck": ["yes"]
+    },
+    {
+      "tag": "total_expenses",
+      "patterns": [
+        "Total Expenses 35500",
+        "Total Expenses 25000",
+        "My total expenses are 30000",
+        "Total Expenses 15000 per month",
+        "Total Expenses 40000 per month"
+      ],
+      "responses": [
+        "May I know your company name or business name that you work for or own ?(please type or say -company name or business name- and then the company name)"
+      ],
+      "context_filter": [
+        "personal_loan_apply"
+      ],
+      "recheck": ["yes"]
+    },
+    {
+      "tag": "company_name",
+      "patterns": [
+        "company name is HDFC bank",
+        "company name is Ambuja Cement pvt ltd",
+        "company name is Apple Inc",
+        "business name is Flave pvt ltd",
+        "business name is Bird Ltd"
+      ],
+      "responses": [
+        "May I know your total experience ?(please type or say -total experience is- and then the experience in years)"
+      ],
+      "context_filter": [
+        "personal_loan_apply"
+      ],
+      "recheck": ["yes"]
+    },
+    {
+      "tag": "total_experience",
+      "patterns": [
+        "Total experience 35 years",
+        "Total experience 25 years",
+        "My total experience are 30 years",
+        "Total experience 15 years",
+        "Total experience 40 years"
+      ],
+      "responses": [
+        "calc_eli"
+      ],
+      "context_set": [
+        "ploan_apply"
+      ],
+      "context_filter": [
+        "personal_loan_apply"
+      ],
+      "recheck": ["yes"]
+    },
+    {
+      "tag": "ploan_apply_yes",
+      "patterns": [],
+      "responses": [
+        "In order to further proceed with the application, I will need you contact information. Please type your phone number and your email address. Please type your phone number first and then your email address"
+      ],
+      "context_set": [
+        "ploan_apply_contact"
+      ],
+      "context_filter": [
+        "ploan_apply"
+      ],
+      "recheck": ["yes"]
+    },
+    {
+      "tag": "ploan_apply_no",
+      "patterns": [],
+      "responses": [
+        "Alright. Is there anything else I may help you with?"
+      ],
+      "context_set": [
+        "anything_else"
+        ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "pink@gmail.com",
+        "@",
+        "gmail.com",
+        ".com",
+        ".in",
+        ".gov",
+        ".us"
+      ],
+      "responses": [
+        "apply_pl"
+      ],
+      "context_set":[
+        "upselling"
+      ],
+      "context_filter": [
+        "ploan_apply_contact"
+      ],
+      "recheck": ["yes"]
+    },
+    {
+      "tag": "anything_else_yes",
+      "patterns": [],
+      "responses": [
+        "Sure. May I know your query?"
+      ],
+      "context_set": [
+        ""
+      ]
+    },
+    {
+      "tag": "recommend_yes",
+      "patterns": [],
+      "responses": [
+        "recom"
+      ],
+      "context_set": [
+        "upselling"
+      ]
+    },
+    {
+      "tag": "recommend_no",
+      "patterns": [],
+      "responses": [
+        "Just before you leave I would like to inform you that our bank offers you a Accidental Policy worth 5 lacs. Would you like to know more about the offer"
+      ],
+      "context_set": [
+        "upselling"
+      ]
+    },
+    {
+      "tag": "upselling_yes",
+      "patterns": [],
+      "responses": [
+        "Thank you. The accidental policy cover provided is applicable 24 hours a day, 7 day a week, 365 days of the year. The individual stands protected by this Personal Accident cover in India and any other location worldwide. On death due to accident, the nominee will be paid an amount of 5 lacs, your monthly installment will be Rupees 550 only. Do you wish to apply ?"
+      ],
+      "context_set": [
+        "upselling_apply"
+      ]
+    },
+    {
+      "tag": "upselling_no",
+      "patterns": [],
+      "responses": [
+        "Is there anything else I may help you with?"
+      ],
+      "context_set": [
+        "anything_else"
+      ]
+    },
+    {
+      "tag": "upselling_apply_yes",
+      "patterns": [],
+      "responses": [
+        "Thank you for your decision to purchase the Accidental Insurance Policy. I have forwarded your contact information to the concern department. One of our officer will soon get in touch with you. Is there anything else I may help you with."
+      ],
+      "context_set": [
+        "anything_else"
+      ]
+    },
+    {
+      "tag": "upselling_apply_no",
+      "patterns": [],
+      "responses": [
+        "Is there anything else I may help you with?"
+      ],
+      "context_set": [
+        "anything_else"
+      ]
+    }
+  ]
+}

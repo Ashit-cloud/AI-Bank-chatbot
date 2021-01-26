@@ -1,0 +1,43 @@
+nltk.word_tokenize()
+lemmatizer.lemmatize()
+
+Create:
+1. words -with nltk.word_tokenize()
+2. document -with (word and tag)
+3. classes -with all the tags
+
+- lemmatize words
+
+create:-
+1. words.pkl
+2. classes.pkl
+3. training -with document[words] in words as 1 & 0
+
+- random shuffle training
+- training to np.array
+
+create:-
+1. from training create train_x & train_y
+2. create a neural networl model
+
+- compile model
+- fit training data in model
+- save model
+
+------------x--------x----------x-----------
+
+For user iteraction:
+
+def clean_up_sentence(sentence) - tokenize and lemmatize
+
+def bow(sentence, words, show_details=True) - bag of words & convert into np.array which is the test_X
+
+def predict_class(sentence, model) -  predicts the probability of each intents
+
+def getResponse(ints, intents_json) - finds tags of predicted intent and matches with the tag in intent.json and picks a random response
+
+def chatbot_response(msg) - takes user message and applies to predict_class to create possible intent and  the applies to getResponse to get a random response from bot
+
+def send() - function to enter chat in the textbox screen and clean text form entrybox
+
+def enter_function(event) - function to invoke send button with enter keyword

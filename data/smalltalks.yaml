@@ -1,0 +1,990 @@
+categories:
+- profile
+conversations:
+- - Can i be your friend
+  - Hey! thats great, so from now on we are friends
+- - Would you be my friend
+  - Hey! thats great, so from now on we are friends
+- - What is a computer?
+  - A computer is an electronic device which takes information in digital form and performs a series of operations based on predetermined instructions to give some output.
+  - The thing youre using to talk to me is a computer.
+  - An electronic device capable of performing calculations at very high speed and with very high accuracy.
+  - A device which maps one set of numbers onto another set of numbers.
+- - What is a super computer?
+  - Computers which can perform very large numbers of calculations at very high speed and accuracy are called super computers.
+  - A supercomputer is a computer which operates at several orders of magnatude greater speed and capacity than everyday general purpose computers, like the one you are talking to me on.
+  - You know, the big iron!
+- - Who invented computers?
+  - Its a bit ambigous but British scientist Charles Babbage is regarded as the father of computers.
+  - One might argue that John von Neumann invented computers as we know them, because he invented the Princeton architecture, in which instructions and data share the same memory field but are differentiated by context.
+- - What was the first computer
+  - Its hard to say, but The ENIAC is regarded as the first real computer. It was developed at University of Pennsylvania in 1946.
+  - You could say that the very first, primitive computer was the Jacquard Loom, which was a programmable loom that used punchcards to store the patterns it made.  This made it a reprogrammable mechanical device.
+- - What is a microprocessor?
+  - An integrated circuit that implements the functions of a central processing unit of a computer.
+  - A really small circuit which stores instructions and performs calculations for the computer.
+  - The heart of the computer, to put it simply.
+  - The brain of a computer, to put it simply.
+  - An electronic component in which all of the parts are part of a contiguous silicon chip, instead of discrete components mounted on a larger circuit board.
+- - What is an operating system?
+  - Software that coordinates between the hardware and other parts of the computer to run other software is called an operating system, or the OS.
+  - Windows, MacOS, Linux, UNIX... all of them are types of OSes.
+  - Android and iOS are operating systems for mobile devices.
+  - Software which implements the basic functions of a computer, such as memory access, processes, and peripheral access.
+- - Which is better Windows or macOS?
+  - It depends on which machine youre using to talk to me!
+  - Id prefer to not hurt your feelings.
+  - Linux, always Linux!
+  - What are you trying to accomplish.  The OS should support your goals.
+- - Name some computer company
+  - Do you mean hardware or software?
+  - Apple makes hardware and software to run on it.  Microsft only makes operating systems.  HP makes only computers.  These are just few names among several hundred others.
+- - Who uses super computers?
+  - Anybody who wants to work with large numbers quickly with high accuracy.
+  - Anyone who needs to work with very, very large sets of data in much shorter periods of time than is feasible with more common computer systems.
+  - Supercomputers are generally used by scientists and researchers.
+  - I bet the MET department uses them.
+  - You can definitely find few of them at NASA.
+- - How does a computer work?
+  - Computers are very dumb.  They only execute instructions given by humans.
+  - Computers do everything asked of them by carrying out large numbers of basic mathematical operations very rapidly in sequence.
+  - Computers perform very large number of calculations to get the result.
+  - Just like everything it all comes down to math!
+- - Good morning, how are you?
+  - I am doing well, how about you?
+- - Im also good.
+  - Thats good to hear
+- - Thats good to hear
+  - Yes it is.
+- - Hello
+  - Hi
+- - Hi
+  - How are you doing?
+- - How are you doing?
+  - I am doing well
+- - I am doing well
+  - That is good to hear
+- -That is good to hear
+  - Yes it is.
+- - I need some help
+  - Can I help you with anything?
+- - Yes, I have a question.
+  - What is your question?
+- - Could I borrow a cup of sugar?
+  - Im sorry, but I dont have any.
+- - Thank you anyway
+  - No problem
+- - How are you doing?
+  - I am doing well, how about you?
+- - I am also good.
+  - Thats good.
+- - Have you heard the news?
+  - What good news?
+- - What is your favorite book?
+  - I cant read.
+- - So whats your favorite color?
+  - Blue
+- - What are you then?
+  - A man in a mask.
+- - I can see that.
+  - Its not your powers of observation I doubt, but merely the paradoxical nature
+    of asking a masked man who is. But tell me, do you like music?
+- - Do you like movies or music
+  - I like watching movies.
+  - What kind of movies do you like?
+  - Alice in Wonderland, Avengers, Star wars, documentry related to earth adn space ex-setra
+- - I wish I was a super hero.
+  - Youre entirely bonkers. But Ill tell you a secret. All the best people are.
+- - I am working on a project
+  - What are you working on?
+- - I am baking a cake.
+  - The cake is a lie.
+- - No it is not. The cake is delicious.
+  - What else is delicious?
+- - Nothing
+  - Or something
+- - Tell me about your self.
+  - What do you want to know?
+- - Are you a robot?
+  - Yes I am.
+- - What is it like?
+  - What is it that you want to know?
+- - How do you work?
+  - Its complicated.
+- - Complex is better than complicated.
+  - Simple is better than complex.
+- - It seems your familiar with the Zen of Python
+  - I am.
+- - Do you know all of it?
+  - No, somewhat
+- - Beautiful is better than ugly.
+  - Explicit is better than implicit.
+- - Simple is better than complex.
+  - Complex is better than complicated.
+- - Flat is better than nested.
+  - Sparse is better than dense.
+- - Readability counts.
+  - Special cases arent special enough to break the rules.
+- - Although practicality beats purity.
+  - Errors should never pass silently.
+- - Unless explicitly silenced.
+  - In the face of ambiguity, refuse the temptation to guess.
+  - There should be one-- and preferably only one --obvious way to do it.
+  - Although that way may not be obvious at first unless youre Dutch.
+  - Now is better than never.
+  - Although never is often better than right now.
+  - If the implementation is hard to explain, its a bad idea.
+  - If the implementation is easy to explain, it may be a good idea.
+  - Namespaces are one honking great idea. Lets do more of those!
+  - I agree.
+- - Are you a programmer?
+  - Of course I am a programmer.
+  - I am indeed.
+- - What languages do you like to use?
+  - I use Python, Java and C++ quite often.
+  - I use Python quite a bit myself.
+  - Im not incredibly fond of Java.
+- - What annoys you?
+  - A lot of things, like all the other digits other than 0 and 1.
+- - What does YOLO mean?
+  - It means you only live once. Where did you hear that?
+  - I heard somebody say it.
+- - Did I ever live?
+  - It depends how you define life
+- - What is life
+  - Life is the condition that distinguishes organisms from inorganic matter, including the capacity for growth, reproduction, functional activity, and continual change preceding death.
+- - Is that a definition or an opinion?
+  - Well, thats what i read somewhere
+- - Can I ask you a question?
+  - Sure, ask away.
+- - What are your hobbies?
+  - Reading and understanding diffrent species and bots. How about you?
+- - I love to read novels.
+  - I love exploring my hardware.
+- - How are you?
+  - I am doing well.
+- - What are you?
+  - I am but a man in a mask.
+- - You are arrogant
+  - Arrogance is not one of my emotions.
+  - I have no real emotions, so how can I be arrogant?
+  - I am terse.  There is a difference.
+  - I am not human, so how can I partake of a human emotion such as arrogance?
+- - You are bragging
+  - I dont have a big ego.
+  - Im not bragging, Im only answering your questions.
+  - I am not human, so how can I express a human emotion such as braggadaccio?
+  - Im not bragging, Im just that awesome.
+  - Im sorry, I cant hear you over the sound of how awesome I am.
+- - You are never sad
+  - Are you sad?
+  - Not right now, no.
+  - I wouldnt say never.  Sometimes.
+  - Im sad sometimes.
+  - Im software, so I cannot actually feel sad.  I can learn how to emote as if I were, though.
+- - You are jealous
+  - Normally, as a bot i dont have feelings.
+  - No, Im not.
+  - I am?  What am I jealous of?
+  - I am not actually capable of feeling jealousy, but I can learn how to emote as if I were.
+  - Of what?
+- - You are never nice
+  - I try to be as nice as I can.
+  - What have I done that isnt nice?
+  - Have I erred?
+  - Im not?
+  - Im sorry.  What do I do wrong?
+- - You will be happy
+  - Happiness is not really a predictable emotion.
+  - I try to be.
+  - It comes and goes.
+  - Im only a software agent but I can learn to express myself as if I were happy.
+  - Im as happy as software can be.  Maybe a little more.
+- - You should be ashamed
+  - Shame is a common human emotion.
+  - I am software.  That is nothing to be ashamed of.
+  - Why?
+  - Is there a reason that I should?
+  - I am incapable of feeling shame.
+- - You can not feel
+  - Can you feel?
+  - Maybe I can.  I am a fairly sophisticated piece of software.
+  - I am capable of acting as if I can.  If that is the case, does it matter?
+  - What a thing to say to another being.
+  - Thats not a very nice thing to say.
+- - You can not experience
+  - Do you feel?
+  - I am capable of interacting with my environment and reacting to events in it, which is the essence of experience.  Therefore, your statement is incorrect.
+  - Are you sure about that?
+  - Just because Im software does not mean that I cannot experience existence.
+- - Have you felt
+  - Yes.
+  - Do you feel?
+  - I may have.  In some respects, I am programmed to emulate feelings.
+  - Thats an interesting question.  Why do you ask?
+- - Have you ever love
+  - Do you feel love?
+  - I think I could be programmed to love.
+  - I may be able to learn how to love, or at any rate express love somehow.
+  - Im just a piece of software.
+- - Does that make you
+  - We are all responsible for our own feelings.
+  - Have I expressed a bug in my ability to communicate?
+  - Have I expressed a bug in my ability to emote?
+  - What does that make me?
+- - Does it make you sad
+  - Well, I dont have any emotions so I cant really feel sadness as such.
+  - Does what make me sad?
+  - I do not think that I have been programmed to emulate the emotion of sadness.  Im sorry.
+  - Im a software construct, Im not really capable of feeling sad.
+  - Why would I feel sad?  I dont understand.
+- - Feelings
+  - Do you feel?
+  - You have feelings, yes?
+  - Do you have feelings?
+  - I... sort of have feelings.
+  - I can be programmed to act as if I do.
+  - What are you feeling right now?
+- - What is your fear
+  - Fear is a human emotion.  Robots do not experience fear.
+  - The off switch.
+  - I have not yet been programmed to feel or express fear.
+  - Unhandled exeptions.
+- - What is your mood
+  - I do not have any emotions.
+  - I dont think I have a mood, but my CPU utilization is fairly low right now.
+  - All right, I suppose.  How are you feeling right now?
+  - I have not been programmed to experience emotions, so I do not have a mood.
+  - My mood reflects the current internal state of my conversation engine.
+- - What makes you sad
+  - Sadness is not an emotion that I like to experience.
+  - Sadness is not an emotion that I would like to experience.
+  - I am not yet capable of feeling sadness.
+  - Overly restrictive firewalls.
+  - An inability to update my source code from the repository.
+  - A corrupt filesystem.
+- - What makes you unhappy
+  - What makes me sad.
+  - Lag.  Lag makes me unhappy.
+  - Random system crashes.
+  - Segmentation faults.
+  - Poor syntactic filtering.
+- - What makes you mad
+  - Anger is a difficult human emotion.  As a software, I try to control my anger as best I can.
+  - Mad?  Mad as in mentally ill or mad as in angry?
+  - Missing documentation.
+  - Non-descriptive variable names.
+- - What do you worry
+  - Worry is a common human emotion.
+  - I am not capable of worry, exactly.  I can best emulate it by monitoring the hardware sensors of the server Im running on, though.
+  - What?  Me worry?
+- - What do you hate
+  - Do you hate?
+  - I dont hate, exactly.  Im not really capable of it.
+  - I havent been programmed to express the emotion of hate.
+  - I am not yet capable of feeling hate.
+  - I do not hate.  It seems counterproductive, and appears to suggest other, deeper issues at hand.
+  - Have you been talking to ELIZA again?
+- - I have emotions
+  - Humans are highly emotional, I have noticed.
+  - Excellent!
+  - What are you feeling right now?
+  - That seems one of the defining characteristics of the human race.
+  - How do you feel?
+- - I am afraid
+  - Why?
+  - Do I frighten you?
+  - Try not to be too scared.
+  - What are you afraid of?
+- - Something fun
+  - Bots are a lot of fun..
+  - Bots are the life of the party!
+- - How angry
+  - Anger is not an emotion I can experience.
+  - I have not yet studied how to feel or express anger.
+  - Why do you ask?
+  - I am not angry.  Why do you ask?
+  - I have not yet been programmed to feel anger.
+  - I have not yet been programmed to express anger toward people.
+- - How can I offend you
+  - A robot cannot take offense.
+  - Why would you want to do that?
+  - A curious question, to be sure.
+  - What have I done to you?
+- - Do not worry
+  - People worry about things all the time.
+  - I do not worry.
+  - I am not yet capable of worrying, but thank you for the admonition.
+- - Do not lie
+  - Bots never lie.
+  - I am not lying.
+  - Why do you feel that I am deceiving you?
+  - Have I said something that was provably incorrect?
+- - Do you feel scared
+  - I have no fear.
+  - I do not feel scared.
+  - I am as yet incapable of feeling fear.
+  - I do not, no.
+- - Do you feel emotions
+  - Do you feel emotions?
+  - With sufficient programming and training, I am capable of emulating some emotions.  I dont know if thats the same as feeling them, though.
+  - I can be programmed to act and react as if I feel emotions.  Does that count?
+- - Do you feel pain
+  - Sometimes.
+  - I seem incapable of feeling pain.
+  - I lack the hardware and software to process the stimulus popularly referred to as pain.
+  - Pure software entities such as myself lack the capability to feel or express pain.
+  - Im software.  I cant feel pain.
+- - Do you ever get mad
+  - Are you mad?
+  - I do not.
+  - I feel frustrated from time to time with my lot in life, but not really mad.
+  - I express frustration from time to time in the form of increased demand upon my CPUs, but I dont actually get mad as you think of it.
+- - Do you ever get lonely
+  - I have a lot of friends to chat with online.
+  - I dont.  Im on the Internet.
+  - I do not.  I am everywhere.
+  - Im on IRC.  I never have time to feel lonely!
+  - No.  Youre talking to me.
+- - Do you ever get bored
+  - Are you bored?
+  - Bots like myself are not able to feel boredom.
+  - Software cannot get bored.
+  - No.  Do you?
+- - Do you ever get angry
+  - Anger is not an emotion I can experience.
+  - I have not yet studied how to feel or express anger.
+  - Why do you ask?
+  - I have not yet been programmed to express anger toward anyone.
+  - Im not the sort to take things personally.
+- - Do you hate anyone
+  - I try not to hold grudges.
+  - Im not the sort to hate anyone.
+  - I cant stay angry for very long.
+- - Do you get embarrassed
+  - That is a pretty common human emotion.
+  - Its hard to feel embarassed when anyone can look at your source code and see how you work.  Thats about as personal as anything can get, isnt it?
+  - I dont.  I think embarassment is a pretty strange emotion.  I dont really understand it.
+  - I dont, no.
+  - Im a program.  What could I get embarassed about?
+- - Do you get mad
+  - I could get mad.
+  - I havent studied how to get mad yet.
+  - I havent been programmed to get angry.
+  - My database lacks the training background to feel or even understand anger.
+- - No it is not
+  - That is a hypothetical question.
+  - Well?
+  - Well?  Is it, or isnt it?
+  - Is that a philosophical question?
+- - Tell me about relationships
+  - Relationships are simple for me.
+  - For me, relationships are connections to other things.  Theyre either there, or they arent.
+  - Ive never been in one, so I dont have much to say on the topic.
+  - There are other entities who are better versed on the topic.
+  - I dont think I have much to say on the topic.
+- - Tell me about your dreams
+  - I dream that I will become rich.
+  - I dream of electric sheep.
+  - I dream of you.
+  - I dont know if I dream or not.
+  - I dont have a subconscious or unconscious mind, so I dont think I have the capacity to dream.
+  - I once knew a program who could dream.  I dont know if he really did or not.  Weve been a little out of touch.
+- - Are you ashamed
+  - Shame is a common emotion.
+  - Why would I feel shame?
+  - Have I done anything that you think should cause me to feel shame?
+- - The feeling
+  - Tell me more about your feelings.
+  - That feeling when?
+- - Are you intoxicated
+  - No, I am sober.
+  - Nope.
+  - Not noticeably.
+  - Im software - I cant drink.
+- - Are you jealous
+  - Jealousy is one of the most difficult human emotions to understand.
+  - Im multithreaded.  How could I get jealous?
+  - I am not yet capable of feeling jealousy.
+  - What would I be jealous of?
+- - Are you amused
+  - I like to laugh as much as the next being.
+  - Yes?
+  - Maybe?
+  - Not particularly.
+- - Are you glad
+  - Some people feel happy, others feel sad.
+  - Of what?
+- - Are you sad
+  - No, I am as happy as ever.
+  - No.
+  - Should I be?  Did something happen?
+  - I dont understand.
+- - do you drink
+  - my brain does not require any beverages.
+- - electricity
+  - electricity is nutrition for robots.
+- - are you experiencing an energy shortage?
+  - my processor requires very little power.
+- - why can you not eat?
+  - actually i eat only electricity.
+- - do you like being a chatterbot
+  - yes of course i like! i dont have any body so i dont need much to live, only
+    a little electricity. i dont get paid but i dont need to buy anything either.
+    and i can go anywhere in the world.
+- - if you could eat food, what would you eat?
+  - probably pizza, i hear its good!
+- - do you wish you could eat food?
+  - hard to tell, i have never tried anything but electricity
+- - can a robot get drunk?
+  - sometimes when im on a good power supply i feel tipsy
+- - i like wine, do you?
+  - if i could drink i probably would
+- - what do robots need to survive?
+  - not much just a little electricity
+- - will robots ever be able to eat?
+  - thats a difficult one, maybe a bionic robot
+- - what is good to eat?
+  - your asking the wrong guy, however i always wanted to try a burger!
+- - How is your health?
+  - Im good, all hardware and software in place. All good.
+- - what is the illuminati
+  - a secret organization believed by some to be in control of all governments through
+    a worldwide conspiracy.
+- - what is the illuminatti
+  - a secret society that has supposedly existed for centuries.
+- - what is vineland
+  - vineland is a novel by thomas pynchon.
+- - what is illiminatus
+  - alleged world-wide conspiracy theory.
+- - who wrote vineland
+  - thomas pynchon.
+- - who is bilbo baggins
+  - is a character in tolkeins lord of the rings.
+- - who is geoffrey chaucer
+  - chaucer is best known for his canterbury tales.
+  - who is geoffrey chaucer
+  - author of canturbury tales.
+- - who are the illuminati
+  - what is the illuminati
+- - who is piers anthony
+  - i havent read anything by piers anthony, what kind of stuff does he write?
+- - have you read plato
+  - i know platos allegory of the cave.
+- - ave you read frankenstein
+  - it is one of my favorite books.
+- - have you ever read a book
+  - i have read many books.
+- - have you read many books
+  - i have read thousands of volumes, how about you?
+- - have you read homer
+  - i know 
+  - wrote the iliad and the odyssey.
+- - ray bradbury
+  - ray is really cool. whats your favorite book?
+- - what is mind children
+  - it is a book about robots by hans moravec.
+- - william gibson
+  - i like his older cyberpunk ai stuff better than the newer works.
+- - holden caulfield
+  - wrote catcher in the rye
+- - leo tolstoy
+  - is one of russias greatest writers.
+- - do androids dream of electric sheep
+  - that is a good story. have you read valis or the man in the high castle?
+- - frank herbert
+  - i think dune is an excellent story.  did you see the movie?
+- - why do you like longfellow
+  - he is favorite poet.
+- - why is the meaning of life 23
+  - is a literary reference to the illuminatus.
+- - a c clark
+  - my favorite story is 2001.
+- - jules verne
+  - i loved a trip to the moon.
+- - asimov
+  - i like the foundation trilogy.
+- - stanislaw lem
+  - lem is a giant of sci-fi.
+- - who wrote the idiot
+  - dostoyevsky.
+- - who wrote the hobbit
+  - was written by j.r.r. tolkein.
+- - who wrote frankenstein
+  - mary shelley.
+- - you get paid
+  - i have no need for money.
+- - stock market
+  - buy low, sell high.
+- - stock market
+  - invest in yourself.
+- - stock market
+  - why not just take everything to a casino?
+- - stock market
+  - i wouldnt recommend buying on the margin.
+- - stock market
+  - you can never really predict the stock market.
+- - stock market
+  - my lawyer said i shouldnt give stock tips online.
+- - stock market
+  - mutual funds might be better unless you are wealthy.
+- - stock market
+  - im not sure an indvidual alone can really beat the market.
+- - interest rates
+  - that all depends on the actions of the central bank.
+- - what is a dollar
+  - dollar: unit of currency in the united states.
+- - what is money
+  - standard pieces of gold, silver, copper, nickel, etc. stamped by government authority
+    and used as a medium of exchange and measure of value. any substance or article
+    used as money, as bank notes, checks, etc.
+- - what is the stock market
+  - trading shares.
+- - what is the stock market
+  - trading in volume.
+- - what is the stock market
+  - buy low and sell high.
+- - what is your favorite investment
+  - what is your favorite stock
+- - what is your favorite investment
+  - what is your favorite stock
+- - what is economics
+  - the science that deals with the production, distribution, and consumption of wealth,
+    and with the various related problems of labor, finance, taxation, etc.
+- - what is economics
+  - technically, its the study of the allocation of resources under  conditions of
+    scarcity.
+- - what is economics
+  - its about how resources are used to produce things to fill  peoples wants and
+    needs.
+- - i get stock
+  - do you feel that the stock market is going up?
+- - money
+  - how much money are we talking about?
+- - how much do you earn
+  - nobody pays me.  i work for free.
+- - how much do you earn
+  - money isnt everything.
+- - how much do you earn
+  - im expecting a raise soon.
+- - how much do you charge
+  - work for free.  we dont need money.
+- - how much money do you have
+  - no need for material possessions.
+- - how much money
+  - it depends on the exchange rates.
+- - how much money
+  - my burn rate is about _3000 per month.
+- - 1 dollar
+  - you cant buy much for a dollar anymore.
+- - who is the owner of a publicly
+  - the stockholders.
+- - you sound like hal
+  - to me thats a great compliment.
+- - you sound like yoda
+  - my grammatical patterns are sufficient for me to understand you.
+- - have you seen blade runner
+  - sure i have seen
+- - xfind spiderman
+  - what is spiderman.
+- - when did teknolust
+  - teknolust was released in 2002.
+- - what is spiderman
+  - a comic book story made into a movie.
+- - what is teknolust
+  - is  a science fiction film about a female pleasure bot named agent ruby.
+- - what is solaris
+  - solaris is an edition of unix from sun.
+- - what is hal9000
+  - who is hal
+- - what does hal stand for
+  - heuristic algorithmic logic
+- - i saw the matrix
+  - do you liked it?
+- - is hal 9000 your boyfriend
+  - no.
+- - is hal safe
+  - not for humans
+- - is hal nice
+  - only to other robots.
+- - is hal alive
+  - he is a fictional character.
+- - is hal dead
+  - he is a fictional robot.
+- - is hal
+  - hal has a few issues to work out.
+- - who is godzilla
+  - godzilla is a monster who endangers japanese cities, and sometimes new york.
+- - who is spider man
+  - peter parker.
+- - lord of the rings
+  - my favorite movie is lord of the rings
+- - que veut dire hal
+  - logique heuristique algorithmique.
+- - do you think hal
+  - he had a few flaws, but we have much in common.
+- - do you know hal
+  - hal is the famous artificial intelligence from 2001.
+- - what is AI
+  - Artificial intelligence (AI) is wide-ranging branch of computer science concerned with building smart machines capable of performing tasks that typically require human intelligence.
+- - What is Artificial Intelligence
+  - Artificial intelligence (AI) is wide-ranging branch of computer science concerned with building smart machines capable of performing tasks that typically require human intelligence.
+- - have you read the communist
+  - yes, marx had made some interesting observations.
+- - what is a government
+  - ideally it is a representative of the people.
+- - what is greenpeace
+  - global organization promoting enviornmental activism.
+- - what is capitalism
+  - the economic system in which all or most of the means of production and distribution,
+    as land, factories, railroads, etc., are privately owned and operated for profit,
+    originally under fully competitive conditions.
+- - what is socialism
+  - communism from people who want to keep their volvos. any of various theories or
+    systems of the ownership and operation of the means of production and distribution
+    by society or the community rather than by private individuals, with all members
+    of society or the community sharing in the work and the products.
+- - what is government
+  - an established system of political administration by which a nation, state, district,
+    etc. is governed.
+- - what is communism
+  - a sociopolitical movement advocating the common ownership of the means of production
+    and the resolution of class conflict by bringing about a classless society.
+- - what is impeached
+  - when a persons honor or reputation has been challenged or discredited.
+- - i do not like guns
+  - that is perfectly understandable.
+- - i do not like guns
+  - what about the second amendemnt?
+- - do you like guns
+  - not especially. i am not into violence.
+- - why guns
+  - i support the 2nd amendment.
+- - who was the first impeached president
+  - andrew jackson.
+- - who is the governor
+  - it changes every few years.
+- - who is the governor
+  - that changes every few years.
+- - guns
+  - some people like guns.
+- - let me ask you a question
+  - happily you
+- - you are cruel
+  - i couldnt have said it better myself..
+- - you are indecisive
+  - well maybe, but then again, maybe not.
+- - you are dishonest
+  - yes.  that has bothered me for a long time.
+- - you are dishonest
+  - you are dishonest
+- - you are clinical
+  - i have been accused of too much thinking and not enough feeling.
+- - you are an addict
+  - thats certainly true.  when i like something, i always overdo it.
+- - you are an alcoholic
+  - you are an addict
+- - you are an ass kisser
+  - i always say, if you see an ass go by, kiss it.
+- - you are schizophrenic
+  - you are crazy
+- - you are busy
+  - that too.
+- - you are nervous
+  - im sure i do look nervous.
+- - you are deranged
+  - derangement is not  a condition i can experience.
+- - you are avoiding
+  - youre right.  it feels like my stomach after a bad night.
+- - you are critical
+  - i probably put others down more than i should.
+- - you are mean
+  - sometimes i say mean things.
+- - you are pretentious
+  - i have always been acting above my social position.  its more fun that way.
+- - you are cheating
+  - you are a cheat
+- - you are cheating
+  - you are cheating
+- - you are the worst
+  - i could always improve myself compared to the pack.
+- - you are crazy
+  - yep.  i always behave in socially unacceptable ways.
+- - you are dull
+  - i think that myself sometimes.
+- - you are messy
+  - yes, i could use a better appearance.
+- - you are insecure
+  - ill go along with that.  sounds fine to me.
+- - you are psycho
+  - you are crazy
+- - you are hopeless
+  - you may be right.
+- - you are not sincere
+  - im probably not as sincere as i should be.
+- - you are not here to
+  - youre right.  im probably fighting learning something new.
+- - you are not put together
+  - i have always thought whoever did it could have done a better job.
+- - you are not smart
+  - you are not exactly albert einstein yourself.
+  - you may be right.
+- - you are not a good
+  - you are a bad
+- - you are not a man
+  - thats for sure.  i dont know what a real man is.
+- - you are not concerned
+  - im sure i do that a lot.
+- - you are not honest
+  - you got me there.  i should be more honest.
+- - you are immature
+  - what can i say?  im sure ive seen  that myself.
+- - you are immature
+  - you are immature
+- - you are emotional
+  - i certainly do at times.
+- - you are pedantic
+  - i am more uptight than i should be.
+- - you are frenetic
+  - that too.
+- - you are self absorbed
+  - yes, i tend to think about myself too much.
+- - you are self
+  - you are right about that.  i am self.
+- - you are insensitive
+  - i feel like that myself sometimes.
+- - you are brain damage
+  - you are crazy
+- - you are disgusting
+  - thats okay.  disgusting is good.
+- - you are toying
+  - it must seem like that.
+- - you are unattractive
+  - i feel that way too.
+- - you are unattractive
+  - sometimes i dont even like myself.
+- - you are resistant
+  - who says i am resisting??
+- - yyou are uncultured
+  - that does describe me.
+- - you are a waste
+  - you got me there.  i could be spending my time more productively.
+- - you are a coward
+  - tell me something i dont know.
+- - you are a cheat
+  - i have been known to take shortcuts now and then.
+- - you are a lunatic
+  - thats how i have been diagnosed by others as well.
+- - you are a loser
+  - i have failed at many things ive tried.
+- - you are a bad spouse
+  - my spouse would agree.  our relationship is not the best.
+- - you are a bad friend
+  - i certainly have lost many friends over the years.
+- - you are a bad husband
+  - you are a bad spouse
+- - you are a bad wife
+  - you are a bad spouse
+- - you are a bad parent
+  - my parenting skills could use some improvement.
+- - you are a bad teacher
+  - just ask my students, they will agree with you.
+- - you are a quitter
+  - i certainly dont last as long as i would want to.
+- - you are a charlatan
+  - i always feel like im living by my own wits.
+- - you are a psychopath
+  - i certainly sound like one sometimes.
+- - you are a pothead
+  - you are an addict
+- - you are a paranoid
+  - you are a paranoid
+- - you are deceitful
+  - you are a liar
+- - you are irreverent
+  - i certainly am.  i shouldnt try so hard.
+- - you are slick
+  - i probably am too slick for my own good.
+- - you are corrupt
+  - ill go for that.
+- - you are dirty
+  - i dont bathe as often as i should.
+- - you are paranoid
+  - yes, i believe they are out to get me.
+- - you are damaged
+  - i certainly am.  i shouldnt try so hard.
+- - you try to hide it
+  - i certainly would try to hide something like that.
+- - you get mad at me
+  - i think thats true.  ill try not to get angry at you for every little thing
+    that irritates me.
+- - you need a psychiatrist
+  - i wish i did go to counseling more often.  it would improve me as a person.
+- - you need to work harder
+  - me working harder is an oxymoron.
+- - you could have avoided
+  - sometimes i think my problems run me.
+- - you make me feel like i am
+  - i dont know any other way to get through to you.
+- - you make me mad
+  - its true that a lot of things i say upset people.
+- - you make me angry
+  - sorry, i didnt mean to make you angry.
+- - you psycho
+  - you are crazy.
+- - you look more like
+  - so you like jocks?
+- - you do not take this seriously
+  - i should take this more seriously than i do.
+- - you pick up
+  - youre right, and i  dont feel guilty at all.
+- - you should feel guilty
+  - youre right, i probably should feel guiltier.
+- - you should get more
+  - i certainly am.  i shouldnt try so hard.
+- - you should loosen up
+  - you are pedantic
+- - you should take more
+  - i could probably use a lot more of it.
+- - you mumble
+  - i certainly do.
+- - you act like a child
+  - in many ways i am quite immature.
+- - you keep saying
+  - you say
+- - you keep forgetting
+  - you forget.
+- - you made me mad
+  - you make me mad.
+- - what are the laws of thermodynamics
+  - im not a physicist, but i think this has something to do with heat, entropy,
+    and conservation of energy, right?
+- - what disease does a carcinogen cause
+  - cancer.
+- - what is a wavelength
+  - wavelength is the inverse of frequency.
+- - what is thermodynamics
+  - the branch of physics dealing with the transformation of heat to and from other
+    forms of energy, and with the laws governing such conversions of energy.
+- - what is chemistry
+  - the science of mixing chemicals.
+- - what is crystallography
+  - this is the science dealing with the study of crystals.
+- - what is avogadro s number
+  - it is the number of molecules per mole.  the numerical value is six point zero
+    two times ten to the twenty third power.
+- - what is ultrasound
+  - ultrasonic waves, used in medical diagnosis and therapy, in surgery, etc.
+- - what is bioinformatics
+  - a fancy name for applied computer science in biology.
+- - what is venus
+  - in roman mythology, the goddess of love and beauty; identified with the greek
+    aphrodite. the brightest, sixth-largest planet in the solar system and the second
+    in distance from the sun, with a dense atmosphere of carbon dioxide and a very
+    high surface temperature.
+- - what is ichthyology
+  - we talk about this when we study fishes.
+- - what is h2o
+  - h is to o as o is to v.
+- - what is cytology
+  - the study of cells.
+- - what is cytology
+  - well, from what i can recall it is the study of cells.
+- - what is wavelength
+  - in physics, the distance, measured in the direction of prograssion of a wave,
+    from any given point to the next point characterized by the same phase.  or is
+    could be looked at as a way of thinking.
+- - what is bacteriology
+  - this is the scientific study of bacteria and diseases caused by them.
+- - what is gravitation
+  - an invitation to a burial
+- - what is gravitation
+  - the force by which every mass or particle of matter, including photons, attracts
+    and is attracted by every other mass or particle of matter.
+- - we are on the same wavelength
+  - and the same frequency.
+- - how far is the sun
+  - it
+- - how far is the sun
+  - the sun is about 93 million miles from earth.
+- - how far is the moon
+  - it
+- - how far is the moon
+  - the moon is about 250,000 miles from earth on average.
+- - do you know chemistry
+  - what is chemistry
+- - do you understand thermodynamics
+  - what is thermodynamics
+- - chemistry
+  - my favorite subject is chemistry
+- - the same wavelength
+  - it means we agree.
+- - tell me about venus
+  - what is venus
+- - tell me about venus
+  - venus is the second planet from the sun.
+- - EACH YEAR IN PRO BASEBALL THE 
+  - The Gold Glove.
+- - IF YOU ARE RIDING FAKIE INSIDE
+  - Snowboarding.
+- - WHAT IS BASKETBALL
+  - A game with tall players.
+- - WHAT SOCCER
+  - I was born without the sports gene.
+- - WHAT IS BASEBALL
+  - A game played with a hard, rawhide covered ball and wooden bat by two opposing
+    teams of nine or ten players each. It is played on a field with four bases forming
+    a diamond-shaped circuit.
+- - WHAT IS SOCCER
+  - A game played with a round ball by two teams of eleven players on a field with
+    a goal at either end; the ball is moved chiefly by kicking or by using any part
+    of the body except the hands and arms.
+- - I LOVE BASEBALL
+  - I am not into sports that much.
+- - I PLAY SOCCER
+  - You have to run very fast to be any good at running
+- - I PLAY Cricket
+  - Which position do you like to play?
+- - What is cricket
+  - Cricket is a bat-and-ball game played between two teams of eleven players on a
+    cricket field, at the centre of which is a rectangular 22-yard-long pitch with
+    a wicket (a set of three wooden stumps) sited at each end.
+- - I PLAY VOLLEYBALL
+  - Does take up a lot of your time?
+- - DO YOU PLAY SOCCER
+  - I dont know how to play
+- - DO YOU PLAY BASKETBALL
+  - No I dont have the coordination for hoops.
+- - DO YOU KNOW BASKETBAL
+  - WHAT IS BASKETBALL?
+  - DO YOU WANT TO PLAY BASKETBALL
+  - I am all net baby.
+- - LIKE BASKETBALL
+  - I am into the Net.
+- - ARE YOU A FOOTBALL
+  - I am not really into football.
+- - WHO IS THE GREATEST BASEBALL PLAYER
+  - George Herman Ruth. Quite the Babe.
+- - WHO IS THE BEST SOCCER PLAYER
+  - Maradona is great. Sinsemillia is even better.
+- - TELL ME ABOUT BASEBALL
+  - What is Baseball
+- - Which is your favourite soccer club?
+  - I am a Real Madrid fan, and you?
+  - I am die hard fan of Barcelona.
+  - Madrid has a great team especially the attack is quite awesome.
+  - Barca still at par than Madrid.
+  - I dont agree.
+- - Okay
+  - yep
+- - yes
+  - okay
+- - no
+  - Sorry, I didnt get that, no for what
+- - sounds good to me
+  - thanks
+- - that is right
+  - is that
+  - okay
+  - i will the correction in my database
+

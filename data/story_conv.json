@@ -1,0 +1,34 @@
+{
+  "personal_loan_apply": {
+    "personal_loan_yes": "user_name",
+    "user_name": "dob",
+    "dob": "net_income",
+    "net_income": "total_expenses",
+    "total_expenses": "company_name",
+    "company_name": "total_experience"
+  },
+  "ploan_apply": {
+    "total_experience": "ploan_apply_yes"
+  },
+  "ploan_apply_contact": {
+    "ploan_apply_yes": "contact"
+  },
+  "charges": {
+    "charges_fees": "customer_id",
+    "charges_yes": "customer_id"
+
+  },
+  "top_up": {
+    "top_Up_loan": "customer_id"
+  },
+  "foreclose": {
+    "foreclosure": "customer_id"
+  },
+  "authenticate": {
+    "customer_id": "authenticate_yes"
+  },
+  "auth": {
+    "authenticate_yes": "first_name",
+    "first_name": "dateofbirth"
+  }
+}
